@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>&zwnj;</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link href="/assets/main.css" rel="stylesheet" />
+    <script src="/assets/jquery.js"></script>
+    <script src="/assets/flexback.js"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+body::-webkit-scrollbar {
+  display: none;
+}
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.infowrapper {
+  margin-top: 20px;
+  padding: 5px;
+  border: 1px solid rgb(0, 162, 255);
+  border-radius: 3px;
+  color: rgb(0, 162, 255);
+  width: 300px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Roboto", sans-serif;
+}
+.infowrapper h1 {
+  color: rgb(0, 162, 255);
+  line-height: 30px;
+  font-size: 30px;
+  margin: 0px;
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+}
+.infowrapper ul {
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.flexBackground {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  top: 0;
+  left: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: -1;
+}
+
+.flexBackground canvas {
+  position: relative;
+}
+
+.flexBackground .backCover {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  top: 0;
+  left: 0;
+  position: absolute;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+  background-color: #000;
+}
+h1 {
+  font-family: "Roboto", sans-serif;
+  color: rgb(0, 162, 255);
+  text-align: center;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 300px;
+  margin: 0;
+  transition: letter-spacing 0.1s linear 0s;
+}
+h1:hover {
+  letter-spacing: -1px;
+}
+a:link {
+  color: rgb(0, 162, 255);
+  text-decoration: none;
+  text-align: center;
+}
+a:visited {
+  color: rgb(0, 162, 255);
+  text-decoration: none;
+  text-align: center;
+}
+p {
+  margin: 0px;
+  margin-top: 80px;
+  margin-bottom: -180px;
+  font-family: "Roboto", sans-serif;
+  color: transparent;
+  font-size: 100px;
+  -webkit-text-stroke: 1.7px rgb(0, 162, 255);
+  text-align: center;
+  transition: 0.2s;
+}
+.container {
+  margin-top: 25vh;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  color: #fff;
+}
+
+.container p {
+  font-size: 50px;
+  margin-bottom: 2px;
+}
+
+#url {
+  background-color: transparent;
+  width: 100%;
+  height: 28px;
+  border: solid 1px rgb(0, 162, 255);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: rgb(180, 180, 180);
+  padding: 8px 0px;
+  margin-bottom: 5px;
+  box-sizing: content-box;
+  text-align: center;
+  border-radius: 2px;
+}
+#url:focus {
+  outline: none;
+}
+#initiate {
+  background-color: inherit;
+  width: 100%;
+  height: 28px;
+  border: solid 1px rgb(0, 162, 255);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 8px 0px;
+  box-sizing: content-box;
+  transition: 0.3s;
+  border-radius: 2px;
+}
+#initiate:focus {
+  outline: none;
+  background: rgb(0, 162, 255);
+  color: #000000;
+}
+#initiate:hover {
+  background: rgb(0, 162, 255);
+  color: #000000;
+}
+
+.container a {
+  height: 20px;
+  background: inherit;
+  color: #ddd;
+  border: 0;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  transition: 0.3s;
+}
+.container a:hover {
+  font-size: 23;
+}
+.url {
+  width: 300px;
+  margin: auto;
+}
+.link {
+  border: 0px;
+  background-color: transparent;
+  font-size: 24px;
+  outline: none;
+  color: rgb(0, 162, 255);
+  transition: color 0.5s linear 0s;
+}
+.link:hover {
+  color: #ffffff;
+}
+li {
+  list-style-type: none;
+  margin-left: -2.25vw;
+  border: 0px;
+}
+.bottom {
+  position: fixed;
+  color: white;
+  bottom: 0px;
+  width: 100%;
+  font-family: "Roboto", monospace;
+}
+</style>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".flexBackground").flexBackground({
+          numberOfPoints: "500",
+          radius: "5",
+          interval: "10",
+          color: "rgb(0, 247, 255)" //rgb only
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div class="flexBackground">
+      <canvas class="canvasBackground"> </canvas>
+    </div>
+    <p>Proxy Server</p>
+    <div class="container">
+      <input placeholder="https://example.org/" id="url" />
+      <button id="initiate">Go</button>
+    </div>
+    <!--https://docs.replit.com/Teams/IT_Toolkit-->
+    <div class="infowrapper">
+      <h1 class="qlink">Quick Links</h1>
+      <ul>
+        <li>
+          <button onclick="redirect('https://reddit.com/r/')" class="link">
+            Reddit
+          </button>
+        </li>
+        <li>
+          <button onclick="redirect('https://discord.com/login')" class="link">
+            Discord
+          </button>
+        </li>
+        <li>
+          <button onclick="redirect('https://memes.com/')" class="link">
+            Memes
+          </button>
+        </li>
+        <li>
+          <button onclick="redirect('https://youtube.com/')" class="link">
+            YouTube
+          </button>
+        </li>
+        <li>
+          <button onclick="redirect('https://twitch.com/')" class="link">
+            Twitch
+          </button>
+        </li>
+      </ul>
+    </div>
+    <div class="infowrapper">
+      <h1 class="qlink">Mirror Links</h1>
+      <ul>
+        <li>
+          <a class="link" href="https://ddm1.i10.repl.co">Mirror 1 (OFFLINE)</a>
+        </li>
+        <li>
+          <a class="link" href="https://ddm2.i10.repl.co">Mirror 2 (OFFLINE)</a>
+        </li>
+        <li>
+          <a class="link" href="https://ddm3.i10.repl.co">Mirror 3 (OFFLINE)</a>
+        </li>
+      </ul>
+    </div>
+    <script src="/assets/share.js"></script>
+  </body>
+</html>
